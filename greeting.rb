@@ -15,7 +15,6 @@ if (arthOp == "+")
   puts "#{num1} plus #{num2} is:"
   answer = num1 + num2
   puts "#{answer}"
-  puts ("https://github.com/bryankenny to check out other projects")
 
 elsif (arthOp == "-")
   puts "Okay, your second number?"
@@ -23,7 +22,6 @@ elsif (arthOp == "-")
   puts "#{num1} minus #{num2} is:"
   answer = num1 - num2
   puts "#{answer}"
-  puts ("https://github.com/bryankenny to check out other projects")
 
 elsif (arthOp == "*")
   puts "Okay, your second number?"
@@ -31,7 +29,6 @@ elsif (arthOp == "*")
   puts "#{num1} times #{num2} is:"
   answer = num1 * num2
   puts "#{answer}"
-  puts ("https://github.com/bryankenny to check out other projects")
 
 elsif (arthOp == "/")
   puts "Okay, your second number?"
@@ -39,17 +36,9 @@ elsif (arthOp == "/")
   puts "#{num1} divided by #{num2} is:"
   answer = num1 / num2
   puts "#{answer}"
-  puts ("https://github.com/bryankenny to check out other projects")
-
-elsif (arthOp == "^")
-  puts "#{num1} squared is:"
-  answer = num1 * num1
-  puts "#{answer}"
-  puts ("https://github.com/bryankenny to check out other projects")
 
 else
   puts ("Incorrect operator, don't you know math!?")
-  puts ("https://github.com/bryankenny to check out other projects")
 
 end
 
