@@ -12,30 +12,33 @@ arthOp = gets.chomp
 if (arthOp == "+")
   puts "Okay, your second number?"
   num2 = gets.chomp.to_i
-  puts "Okay. Calulating #{num1} + #{num2}"
+  puts "#{num1} plus #{num2} is:"
   answer = num1 + num2
   puts "#{answer}"
 
 elsif (arthOp == "-")
   puts "Okay, your second number?"
   num2 = gets.chomp.to_i
-  puts "Calulating #{num1} - #{num2}"
+  puts "#{num1} minus #{num2} is:"
   answer = num1 - num2
   puts "#{answer}"
 
 elsif (arthOp == "*")
   puts "Okay, your second number?"
   num2 = gets.chomp.to_i
-  puts "Calulating #{num1} * #{num2}"
+  puts "#{num1} times #{num2} is:"
   answer = num1 * num2
   puts "#{answer}"
 
 elsif (arthOp == "/")
   puts "Okay, your second number?"
   num2 = gets.chomp.to_i
-  puts "Calulating #{num1} / #{num2}"
+  puts "#{num1} divided by #{num2} is:"
   answer = num1 / num2
   puts "#{answer}"
+
+else
+  puts ("Incorrect operator, don't you know math!?")
 
 end
 
