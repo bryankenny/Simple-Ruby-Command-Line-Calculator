@@ -37,6 +37,11 @@ elsif (arthOp == "/")
   answer = num1 / num2
   puts "#{answer}"
 
+elsif (arthOp == "^")
+  puts "#{num1} squared is:"
+  answer = num1 * num1
+  puts "#{answer}"
+
 else
   puts ("Incorrect operator, don't you know math!?")
 
